@@ -1,0 +1,17 @@
+﻿@page
+@model DZ34Model
+@{
+
+    ViewData["Title"] = "Info";
+
+}
+
+
+<h1>@ViewData["Title"]</h1>
+<p>Info about restaraunts</p>
+<ul style="displa:flex;">
+@for (int i = 0; i < 5; i++)
+{
+    <li><p><h3>Name of restaraunt</h3></p><p>There is some info</p></li>   
+}
+</ul>

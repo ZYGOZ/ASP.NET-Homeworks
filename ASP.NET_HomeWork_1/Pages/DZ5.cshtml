@@ -1,0 +1,17 @@
+﻿@page
+@model DZ5Model
+@{
+
+    ViewData["Title"] = "Country";
+
+}
+
+
+<h1>@ViewData["Title"]</h1>
+<p>Info about Countrys</p>
+<ul style="displa:flex;">
+    @for (int i = 0; i < 5; i++)
+    {
+        <li><p><h3>Name of Country</h3></p><p>There is some info</p></li>
+    }
+</ul>
